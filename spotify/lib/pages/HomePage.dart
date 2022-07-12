@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const MyWidget()));
+                            builder: (context) => const Login()));
                   },
                 ),
               ),
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const MyWidget()));
+                            builder: (context) => const Login()));
                   },
                 ),
               ),
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const MyWidget()));
+                            builder: (context) => const Login()));
                   },
                   child: const Text(
                     'ENTRAR',
